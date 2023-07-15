@@ -20,8 +20,9 @@
 4. git push
 
 /* To pull code / fetch code
-    - git clone <Git_URL> download the file from the git to the local system( Document, localdisk C etc)
+    - git clone <Git_URL> download the file from the git to the local system( Document, localdisk C etc) for the very first time only
     - git remote -v ( shows fetch and push)
+    from the next time 
     - git pull ( helps to update the text or code on downloaded file or code )
 
 
