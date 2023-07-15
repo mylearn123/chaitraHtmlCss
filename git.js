@@ -19,5 +19,8 @@
 
 4. git push
 
+/* To pull code / fetch code
+    - git clone <Git_URL> download the file from the git to the local system( Document, localdisk C etc)
+
 
 */
