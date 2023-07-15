@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+  }
+  /* for unique and specific tag  task */
+   nav ul { /*descendent selector*/
+    list-style-type: none;
+    text-transform: capitalize;
+  }
+  nav ul li{
+    display: inline;
+  }
+  /* .active{
+    text-decoration: underline;
+    color: red;
+  } */
+  .active-link{
+    text-decoration: underline;
+    color: red;
+  }

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- INNER </HEAD> WORKS AS SEARCH ENGINES ON BROWSER -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- type meta whereas as COntent work as SEARCH ENGINES-->
+    <meta name="description" content="Milan web description" />
+    <!-- meta keywords helps to hit the BROWSER by entering the keywords and words -->
+    <meta name="keywords" content="to search by the keywords" />
+    <!-- for link css style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+
+    <!-- 
+    html syntax
+    <element_name> content </element>
+
+        selector
+            -id
+            -class
+            -element/ tag selector
+            -combined selector
+              -descendent selector
+              -and selector
+            -attribute selector
+    css syntax
+    selector{
+        property_name :value
+    }
+ -->
+
+    <!-- internal css -->
+    <style>
+      * {
+        /* to reset the default margin and it is universall */
+        margin: 0px;
+        box-sizing: border-box;
+        padding: 0px;
+      }
+      a{
+        color: inherit;
+        text-decoration: underline;
+      }
+      ul{
+
+        list-style: none;
+      }
+      /* all the above use in every css to rest the css */
+      /* body {
+        background-color: antiquewhite;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      } */
+      /* for unique and specific tag  task */
+      /* nav ul {  */
+      /*descendent selector*/
+      /* list-style-type: none; */
+      /* text-transform: capitalize;
+      }
+      nav ul li{
+        display: inline;
+      } */
+      /* for id use # and for class use . */
+      #small {
+        font-size: 14px;
+        /* color: red; */
+      }
+      /* #second {
+        color: red;
+        font-family:sans-serif;
+
+        text-transform: lowercase;
+      }
+      #third {
+        color: red;
+        font-family:sans-serif;
+
+        text-transform: lowercase;
+      } */
+      .sans-serif-red {
+        color: red;
+        font-family: sans-serif;
+
+        text-transform: lowercase;
+      }
+
+      .box {
+        /* to fit the windows resolution sum of below height padding and margin */
+        height: 300px;
+        width: 375px;
+        border: 1px solid black;
+        padding: 25px;
+        /* margin: 20px; */
+      }
+
+      .border {
+        /* height: 300px; */
+        /* width: 300px; */
+        border: 1px solid black;
+      }
+      table {
+        background-color: green;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body id="" class="">
+    <header style="padding-top: 10px; padding-bottom: 10px">
+      <nav>
+        <ul>
+          <li><a href="./" class="active-link">index</a></li>
+          <li><a href="./about.html">about</a></li>
+          <li><a href="./contact.html">contact</a></li>
+          <!-- <li><a style="color: red;" href="./mern.html">MERN</a></li> external css is very effective and easy than inline and internal css-->
+          <li><a href="./courses/mern.html">MERN</a></li>
+          <li><a href="./courses/qa.html">QA</a></li>
+          <li>
+            <a href="./courses/upcoming/data-sciences.html">Data-Sciences</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <table>
+      <thead>
+        <!-- tr means table row -->
+        <tr>
+          <th>Name</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- td means table data -->
+          <td>Milan</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Krishna</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+    <h1 style="padding-top: 10px; padding-bottom: 10px">Box Model</h1>
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, fugiat.
+      Impedit amet corporis provident fugit alias voluptatem vel tenetur, totam
+      quas possimus! Consequatur rerum voluptate quisquam molestiae, assumenda
+      ipsa. Modi.
+    </div>
+    <div class="box"></div>
+    <div class="border">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+        perferendis a, commodi in ratione est vitae id quisquam suscipit harum
+        totam facere eligendi aperiam, earum quo inventore voluptas voluptatum
+        obcaecati.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+        distinctio, illum suscipit ratione officia voluptate praesentium.
+        Aliquid repellendus quos inventore perspiciatis nam, a reiciendis! Autem
+        cum cupiditate vero! Maiores, sit!
+      </p>
+    </div>
+    <div class="border">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+        perferendis a, commodi in ratione est vitae id quisquam suscipit harum
+        totam facere eligendi aperiam, earum quo inventore voluptas voluptatum
+        obcaecati.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+        distinctio, illum suscipit ratione officia voluptate praesentium.
+        Aliquid repellendus quos inventore perspiciatis nam, a reiciendis! Autem
+        cum cupiditate vero! Maiores, sit!
+      </p>
+    </div>
+    <hr />
+
+    <!-- Inline css -->
+    <h1 style="color: red; text-decoration: underline">WEB CLASS</h1>
+    <h2>ELEMENT</h2>
+    <h3>BLOCK LEVEL ELEMENT</h3>
+    <ul>
+      <li>HEADING1</li>
+      <li>HEADING2</li>
+      <li>HEADING3</li>
+    </ul>
+    <h3>PATH</h3>
+    <h2>ABSOLUTE PATH</h2>
+    <h2>RELATIVE PATH</h2>
+    <h3>INLINE ELEMENT</h3>
+
+    <h2>ATTRIBUTE</h2>
+    <h3>SELECTOR</h3>
+    <h3>CLASS</h3>
+
+    <p id="small" class="sans-serif-red">
+      WEB CLASS - ELEMENT - ATTRIBUTE Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Ducimus, similique nesciunt corrupti modi corporis
+      pariatur voluptatibus iusto libero blanditiis at accusamus dolor tempore,
+      magni non laboriosam voluptates vitae ut quia.
+    </p>
+    <u><a href="./assets/images/mern_stack.png" download>DOWNLOAD IMAGE</a></u>
+    <hr />
+    <!-- _blank helps to redirect to next page and self hels to redirect to same page -->
+    <a href="https://www.google.com" target="_blank">GOOGLE</a>
+    <a href="https://www.facebook.com" target="_blank">FACEBOOK</a>
+    <a href="https://www.instagram.com" target="_blank">INSTAGRAM</a>
+    <a href="https://www.meroshare.com" target="_blank">MEROSHARE</a>
+    <hr />
+    <p id="second" class="sans-serif-red">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+      deleniti, accusamus doloribus error quae facere tempore placeat inventore
+      id, aperiam cupiditate porro obcaecati veniam, sed vitae? Veniam
+      exercitationem cupiditate eveniet.
+    </p>
+    <hr />
+    <p id="third" class="sans-serif-red">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+      deleniti quod nulla dolorum consequatur alias eum voluptates vitae cum
+      harum, dolorem, atque minima quasi numquam ut sint suscipit inventore
+      unde?
+    </p>
+  </body>
+</html>
